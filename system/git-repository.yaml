@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: test
+  namespace: default
+spec:
+  interval: 5m
+  url: https://github.com/rchrd/flux-test.git
+  ref:
+    branch: main
+  ignore: |
+    .git
+    *.md
