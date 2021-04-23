@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: team-2
+  name: team-2c
   namespace: default
 spec:
   interval: 1m
@@ -14,4 +14,4 @@ spec:
         namespace: default
       interval: 1m
   values:
-    teamName: team-2b
+    teamName: team-2c
