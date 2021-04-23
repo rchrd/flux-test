@@ -9,6 +9,6 @@ spec:
   url: https://github.com/rchrd/flux-test.git
   ref:
     branch: main
-  ignore: |
-    .git
-    *.md
+  # ignore: |
+  #   .git
+  #   *.md
