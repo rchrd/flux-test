@@ -5,7 +5,7 @@ metadata:
   name: test
   namespace: default
 spec:
-  interval: 5m
+  interval: 1m
   url: https://github.com/rchrd/flux-test.git
   ref:
     branch: main
