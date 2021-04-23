@@ -5,6 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 1m
+  releaseName: team-1
   chart:
     spec:
       chart: charts/team
