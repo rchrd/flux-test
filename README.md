@@ -12,5 +12,5 @@ flux install --export | kubectl apply -f -
 
 Apply initial configuration
 ```
-kubectl apply -f system/
+kubectl apply -f bootstrap/
 ```

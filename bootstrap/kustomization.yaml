@@ -1,11 +1,11 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: team-1b
+  name: system
   namespace: default
 spec:
   interval: 5m
-  path: "/team-1"
+  path: "/teams"
   prune: true
   sourceRef:
     kind: GitRepository
